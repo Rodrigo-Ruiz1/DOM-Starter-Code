@@ -10,7 +10,35 @@
 </head>
 
 <body>
-
+    <a><img src="css/logo.png"></a>
+    <form>
+        <fieldset>
+            <label>Enter a name
+            <input type="text" id="name">
+                </label>
+            <label>Enter a type of food
+                <input type="text" id="food">
+            </label>
+            <label>Enter a day of the week
+                <input type="text" id="day">
+            </label>
+            <label>Enter a location
+                <input type="text" id="location">
+            </label>
+            <label>Enter a verb
+                <input type="text" id="verb">
+            </label>
+            <br><br>
+            <button type="button" id="submit">Generate Madlib</button>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <label>
+                <p> __<span id="nameHolder" class="placeholder"></span>__'s favorite food is __<span id="foodHolder" class="placeholder"></span>__. Every __<span id="dayHolder" class="placeholder"></span>__ they will go to a __<span id="locationHolder" class="placeholder"></span>___ to __<span id="verbHolder" class="placeholder"></span>__.</p>
+            </label>
+        </fieldset>
+    </form>
+    <script src="js/index.js"></script>
 </body>
-<script src="js/index.js"></script>
 </html>
